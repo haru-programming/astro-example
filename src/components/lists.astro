@@ -1,7 +1,8 @@
 ---
 import Item from "./item.astro"
+const Ul = "ul" // 大文字にする必要がある
 ---
 
-<ul>
-  <Item />
-</ul>
+<Ul>
+  <slot/>
+</Ul>
